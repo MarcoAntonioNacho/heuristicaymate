@@ -1,0 +1,65 @@
+\documentclass{article}
+\usepackage[spanish]{babel} % Carga el paquete para el idioma español
+\usepackage[T1]{fontenc}    % Codificación de la fuente
+\usepackage[utf8]{inputenc} % Codificación de entrada para caracteres UTF-8
+\usepackage{graphicx}       % Paquete para incluir gráficos
+
+\title{Enfoques Heurísticos para el Aprendizaje Matemático}
+\author{Marco Antonio Quispe Nacho}
+\date{Septiembre - 2024}
+
+\begin{document}
+\maketitle
+
+% Crear índice
+\tableofcontents
+\newpage
+
+\section{Introducción}
+La heurística es una estrategia que se utiliza para encontrar soluciones aproximadas a problemas complejos mediante métodos no rigurosos pero efectivos. En matemáticas, la heurística ha sido fundamental para el descubrimiento y la resolución de problemas a lo largo de la historia.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{image.png} % Asegúrate de que 'image.png' esté en el mismo directorio
+    \caption{Ejemplo de Heurística en Matemáticas}
+    \label{fig:heuristica}
+\end{figure}
+
+\section{Ejemplos Históricos}
+
+\subsection{Arquímedes y el Principio de Flotación}
+Arquímedes utilizó el principio de desplazamiento de agua para resolver el problema. Al sumergir la corona y medir el volumen de agua desplazada, pudo comparar la densidad de la corona con la del oro puro.
+
+
+El principio de flotación fue fundamental para resolver un problema práctico: determinar si la corona del rey Hierón II de Siracusa estaba hecha de oro puro o si se había adulterado con plata. Arquímedes se dio cuenta de que podía usar el agua como referencia. Al sumergir la corona en agua, pudo medir el volumen de agua desplazada y, a partir de ese volumen, calcular la densidad de la corona.
+
+\subsection{Newton y el Cálculo}
+Newton desarrolló el cálculo diferencial e integral como herramientas heurísticas para modelar el cambio y el movimiento.
+
+Newton necesitaba un método para describir el movimiento de los cuerpos celestes y terrestres. En este contexto, se enfrentó a preguntas sobre cómo las cantidades cambian con el tiempo. Junto con Gottfried Wilhelm Leibniz, quien desarrolló el cálculo de manera independiente, Newton introdujo conceptos fundamentales como la derivada y la integral.
+
+\subsection{Gauss y la Suma de una Serie Aritmética}
+Gauss, a una edad temprana, descubrió que sumando los números en pares (1+100, 2+99, etc.), podía simplificar el cálculo.
+
+Cuando Gauss era un niño, su maestro le pidió que sumara los números del 1 al 100, esperando que el trabajo le llevara un tiempo considerable. Sin embargo, Gauss encontró una solución sorprendentemente rápida.
+
+\subsection{Pólya y la Resolución de Problemas}
+George Pólya desarrolló un enfoque sistemático para la resolución de problemas, que incluye comprender el problema, diseñar un plan, ejecutar el plan y revisar la solución.
+
+El enfoque de Pólya no solo es útil para matemáticos, sino que también se ha convertido en una herramienta educativa valiosa. Su énfasis en la comprensión y la reflexión promueve un aprendizaje más profundo y ayuda a los estudiantes a desarrollar habilidades de pensamiento crítico.
+
+\section{Conclusión}
+La heurística ha sido una herramienta poderosa en la historia de las matemáticas, permitiendo a los matemáticos descubrir soluciones innovadoras y efectivas a problemas complejos. Estos ejemplos históricos demuestran cómo la heurística puede guiar el pensamiento creativo y la resolución de problemas en matemáticas.
+
+
+\section{Bibliografía}
+\begin{thebibliography}{9}
+
+\bibitem{arq} Arquímedes. \textit{Sobre la flotación de los cuerpos}. Editorial Clásicos.
+\bibitem{newton} Newton, I. \textit{Philosophiæ Naturalis Principia Mathematica}. 1687.
+\bibitem{gauss} Gauss, C. F. \textit{Disquisitiones Arithmeticae}. 1801.
+\bibitem{polya} Pólya, G. \textit{Cómo resolverlo}. Editorial Alianza.
+
+\end{thebibliography}
+
+\end{document}
